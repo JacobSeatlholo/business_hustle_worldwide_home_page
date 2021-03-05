@@ -1,32 +1,32 @@
-<template>
-  <div class="container">
-    <div>
-      <img src="~/assets/BHW logo_yt.svg" />
-      <h2 class="title">
-        
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Home
-        </a>
-        <a
-          href="https://hustleportal-git-bhw1-businesshustle.vercel.app/tutorial"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          CRM App
-        </a>
-      </div>
-    </div>
-  </div>
-</template>
+ <div>
+       <logo />
+       <h1 class="title">
+         Business hustle
+       </h1>
+       <h2 class="subtitle">
 
-<script>
-export default {}
-</script>
+       </h2>
+       <div class="links">
+         <a
+           href="https://bhhome.vercel.app/"
+           target="_blank"
+           class="button--green"
+         >
+           Home
+         </a>
+         <a
+           href="https://bhhome.vercel.app/docs/doc1.html"
+           target="_blank"
+           class="button--grey"
+         >
+           Resources
+         </a>
+       </div>
+     </div>
+   </div>
+ </template>
+
+ <script>
+ import Logo from '~/assets/BHW logo_yt.svg'
+ export default {
+   components: {
