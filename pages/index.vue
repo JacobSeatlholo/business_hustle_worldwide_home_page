@@ -3,25 +3,25 @@
     <div>
       <logo />
       <h1 class="title">
-        nuxtjs
+        Business hustle
       </h1>
       <h2 class="subtitle">
-        My astonishing Nuxt.js project
+        
       </h2>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
+          href="https://bhhome.vercel.app/"
           target="_blank"
           class="button--green"
         >
-          Documentation
+          Home
         </a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
+          href="https://bhhome.vercel.app/docs/doc1.html"
           target="_blank"
           class="button--grey"
         >
-          GitHub
+          Resources
         </a>
       </div>
     </div>
@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Logo from '~/components/undraw_monitor.svg'
 
 export default {
   components: {
